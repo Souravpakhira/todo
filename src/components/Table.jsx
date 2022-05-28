@@ -12,8 +12,8 @@ import {
 } from 'antd';
 import { EditOutlined, DeleteOutlined } from '@ant-design/icons';
 import ProTable from '@ant-design/pro-table';
-import 'antd/dist/antd.css';
-import '@ant-design/pro-table/dist/table.css';
+import 'antd/dist/antd.min.css';
+import '@ant-design/pro-table/dist/table.min.css';
 import Form from './Form';
 import { update, remove } from '../store/todoSlice';
 

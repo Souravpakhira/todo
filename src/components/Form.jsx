@@ -7,7 +7,7 @@ import ProForm, {
   ProFormSelect,
   ProFormTextArea,
 } from '@ant-design/pro-form';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { add } from '../store/todoSlice';
 import moment from 'moment';
 import { nanoid } from 'nanoid';
